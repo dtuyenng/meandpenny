@@ -1,0 +1,23 @@
+#App {
+  background-color: rgb(43, 43, 43);
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  background-color: pink;
+  border: 1px solid pink;
+  margin-top: 10px;
+}
+
+.searchBarItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 10rem;
+  background-color: white;
+  border: 1px solid black;
+}

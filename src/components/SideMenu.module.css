@@ -1,0 +1,9 @@
+#sideMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18rem;
+  width: 10rem;
+  background-color: grey;
+  margin: 1rem;
+}
