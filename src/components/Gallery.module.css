@@ -1,5 +1,0 @@
-.galleryContainer {
-    display: grid;
-    grid-template-rows:  220px 220px 220px;
-    grid-template-columns:  220px 220px 220px;
-}

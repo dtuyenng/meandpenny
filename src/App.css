@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************** MenuBar ***********************/
+
+#header {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  height: 9rem;
+  width: 90%;
+  background-color: white;
+  margin: 0px auto;
+}
+
+#title {
+  font-size: 3rem;
+  margin-right: 4rem;
+  font-family: Caveat, sans-serif;
+}
+
+#subtitle {
+  font-size: 1rem;
+  margin-right: 5rem;
+  font-family: Open Sans, sans-serif;
+}
+
+/********************** MenuBar ***********************/
+
+.small-menubar {
+  border: 1px solid gray;
+  height: 300px;
+}
+
+.small-menubar .menu-item {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border: 1px solid green;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#menuBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4cap;
+  margin-right: 2rem;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 8rem;
+  margin: 0 10px 0 10px;
+  font-family: Open sans, sans-serif;
+}
+
+.menuItem > a {
+  text-decoration: none;
+}
+
+.menuItem > a:hover {
+  text-decoration: underline;
+}
+
+/********************** SideMenu *********************/
+
+/********************** Content *********************/
+
+#content {
+  background-color: #fff;
+  margin-inline: auto;
+  padding: 0 1rem;
+}
+
+/********************** Portfolio *********************/
+
+.stacked {
+  display: grid;
+}
+.stacked > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+.featured {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.card__content {
+  font-size: 0.8rem;
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+  padding: 0.5rem;
+  align-self: end;
+}
+.portfolio__grid {
+  display: grid;
+  min-width: 375px;
+  max-width: 900px;
+  background-color: green;
+  gap: 0.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.portfolio__grid img {
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: fit;
+  object-position: top;
+}
+.image__card {
+}
+.image__card img {
+  aspect-ratio: 1 / 1;
+}
+
+/********************** Footer ***********************/
+#footer {
+  border-radius: 5px;
+  height: 5rem;
+  width: 90%;
+  margin: 10px auto 0px;
+  background-color: #fff;
+  text-align: center;
+}
