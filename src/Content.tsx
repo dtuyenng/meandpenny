@@ -5,7 +5,7 @@ import Portfolio from "./Portfolio";
 function Content() {
   return (
     <div id="content">
-      {/* <SideMenu /> */}
+      <SideMenu />
       <Portfolio />
     </div>
   );
