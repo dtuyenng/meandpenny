@@ -34,20 +34,6 @@
 
 /********************** MenuBar ***********************/
 
-.small-menubar {
-  border: 1px solid gray;
-  height: 300px;
-}
-
-.small-menubar .menu-item {
-  width: 50px;
-  height: 50px;
-  background-color: orange;
-  border: 1px solid green;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
 #menuBar {
   display: flex;
   justify-content: center;
@@ -76,22 +62,44 @@
 
 /********************** SideMenu *********************/
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 24;
+  font-size: 3rem;
+  color: dodgerblue;
+}
+
+.material-symbols-outlined:hover {
+  font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 24;
+}
+
+.small-menubar {
+  border: 1px solid gray;
+  display: grid;
+  justify-content: center;
+  align-content: start;
+  height: 600px;
+  width: 100%;
+}
+
+.small-menubar .menu-item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /********************** Content *********************/
 
 #content {
   background-color: #fff;
   margin-inline: auto;
   display: flex;
-
+  flex-direction: row;
   padding: 0 1rem;
-  border: 2px solid hotpink;
 }
 
 @media only screen and (min-width: 1000px) {
   #content {
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px solid green;
   }
 }
 
