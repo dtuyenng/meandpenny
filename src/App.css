@@ -109,13 +109,31 @@
   grid-column: span 2;
 }
 .card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-size: 0.8rem;
-  background-color: white;
-  color: black;
-  opacity: 0.5;
-  padding: 0.5rem;
-  align-self: end;
+  height: 100%;
+  opacity: 0;
+  color: white;
+  cursor: pointer;
 }
+.card__content:hover {
+  opacity: 0.5;
+}
+.card__content_wrapper {
+  margin: 5px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.7rem;
+}
+
+.card__title {
+  margin-bottom: 2px;
+}
+
 .portfolio__grid {
   display: grid;
   min-width: 375px;
@@ -126,14 +144,14 @@
 .portfolio__grid img {
   max-width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: fit;
+  object-fit: fill;
   object-position: top;
   border-radius: 10px;
 }
-.image__card {
+.portfolio__grid img:hover {
+  scale: 2;
 }
 .image__card img {
-  aspect-ratio: 1 / 1;
 }
 
 /********************** Footer ***********************/
