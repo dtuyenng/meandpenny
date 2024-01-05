@@ -4,16 +4,24 @@ function SideMenu() {
   return (
     <div className="small-menubar">
       <div className="menu-item">
-        <span className="material-symbols-outlined">gallery_thumbnail</span>
+        <a href="">
+          <span className="material-symbols-outlined">gallery_thumbnail</span>
+        </a>
       </div>
       <div className="menu-item">
-        <span className="material-symbols-outlined">monetization_on</span>
+        <a href="">
+          <span className="material-symbols-outlined">monetization_on</span>
+        </a>
       </div>
       <div className="menu-item">
-        <span className="material-symbols-outlined">mail</span>
+        <a href="">
+          <span className="material-symbols-outlined">mail</span>
+        </a>
       </div>
       <div className="menu-item">
-        <span className="material-symbols-outlined">photo_camera_front</span>{" "}
+        <a href="">
+          <span className="material-symbols-outlined">photo_camera_front</span>
+        </a>
       </div>
     </div>
     // <div id="portfolioMenu">
