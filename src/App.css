@@ -93,14 +93,29 @@
   background-color: white;
   border-radius: 5px;
 }
+.menu-item-label {
+  display: none;
+}
 
 @media only screen and (min-width: 600px) {
   .small-menubar {
     justify-content: left;
-    width: 300px;
+    width: 200px;
   }
   .portfolio__grid {
     width: 100%;
+  }
+  .menu-item a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .menu-item-label {
+    display: inline;
+    margin-left: 4px;
   }
 }
 
