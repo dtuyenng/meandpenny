@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="wrapper">
-      {/* <Header></Header> */}
+      <Header></Header>
       <Content></Content>
       {/* <Footer></Footer> */}
     </div>
