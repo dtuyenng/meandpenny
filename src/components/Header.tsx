@@ -4,10 +4,9 @@ function Header() {
   return (
     <div id="header">
       <div id="title">Me and Penny</div>
-      <div id="subTitle">
+      <div id="subtitle">
         Me and my camera, documenting our short existence on this planet...
       </div>
-      <MenuBar></MenuBar>
     </div>
   );
 }
