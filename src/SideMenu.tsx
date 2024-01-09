@@ -28,14 +28,6 @@ function SideMenu() {
         </a>
       </div>
     </div>
-    // <div id="portfolioMenu">
-    //   <label>Portfolios</label>
-    //   <ul>
-    //     <li className="portfolioMenuItem">Portraiture 1</li>
-    //     <li className="portfolioMenuItem">Portraiture 2</li>
-    //     <li className="portfolioMenuItem">Headshots</li>
-    //   </ul>
-    // </div>
   );
 }
 
