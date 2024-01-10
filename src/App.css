@@ -107,11 +107,11 @@ html {
   display: none;
 }
 
-.menu-item a:hover .material-symbols-outlined {
+.menu-item .links:hover .material-symbols-outlined {
   color: white;
 }
 
-.menu-item a:hover {
+.menu-item .links:hover {
   color: white !important;
 }
 
@@ -201,6 +201,7 @@ html {
 .card__content:hover {
   opacity: 0.5;
 }
+
 .card__content_wrapper {
   margin: 5px;
   background-color: black;
