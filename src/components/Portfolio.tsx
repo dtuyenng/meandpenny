@@ -5,6 +5,7 @@ function Portfolio() {
     <div className="portfolio__grid">
       <div className="image__card stacked featured">
         <img src="./portfolio/port1.png" alt="" />
+        <div>Portfolio Name</div>
         <div className="card__content">
           <div className="card__content_wrapper">
             <div className="card__title">Title</div>
